@@ -26,7 +26,7 @@ transactions = [
 ["banana", "d", "e"],
 ["a", "e", "f"],
 ["b", "c", "e"],
-["a", "banana", "c", "e","k"]
+["a", "banana", "c", "e","kakaweyyyaaa"]
 ]
 
 fp_tree = FP_Tree() 
