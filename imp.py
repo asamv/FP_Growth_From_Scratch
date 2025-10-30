@@ -1,33 +1,11 @@
-"""from fp_tree import FP_Tree
-
-fp = FP_Tree()
-transactions = [
-        ["a", "b", "c"],
-        ["a", "b"],
-        ["a", "c", "d"],
-        ["b", "c"]
-    ]
-
-for t in transactions:
-    fp.add_transaction(t)
-
-fp.display()
-fp.display_header_table()"""
-# imp.py
 
 from fp_tree import FP_Tree
 
-transactions = [
-["banana", "ananas", "pomme"],
-["a", "banana"],
-["a", "c", "d"],
-["banana", "c"],
-["a", "banana", "d", "e"],
-["banana", "d", "e"],
-["a", "e", "f"],
-["b", "c", "e"],
-["a", "banana", "c", "e","kakaweyyyaaa"]
-]
+import json
+
+with open("data.json", "r") as file:
+    transactions = json.load(file)
+
 
 fp_tree = FP_Tree() 
 
